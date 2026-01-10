@@ -5,7 +5,9 @@
 + 7/1/2026: **Elementary + Inequalities**
 + 8/1/2026: off-reading
 + 9/1/2026: **Sets, sequences**
-+ 10/1/2026: **Complex, basic analytical geometry, conic, vectors!**
++ 10/1/2026: **Complex**
++ 11/1/2026: Basic analytical geometry, conic, vectors!
+	+ Attempt thử vài câu
 # Lecture Notes
 
 [[Elementary Functions & Inequalities — Structured Notes]]
