@@ -2,32 +2,29 @@
 
 + 5/1/2026: Functions
 + 6/1/2026: **off - reading**
-+ 7/1/2026: Elementary + Inequalities
++ 7/1/2026: **Elementary + Inequalities**
 + 8/1/2026: off-reading
-+ 9/1/2026: Sets, sequences, complex numbers (số phức).
-	+ 
++ 9/1/2026: **Sets, sequences**
++ 10/1/2026: **Complex, basic analytical geometry, conic, vectors!**
 # Lecture Notes
 
 [[Elementary Functions & Inequalities — Structured Notes]]
-
 [[Trigonometry]]
-
 [[Inequality & Set]]
-
-[[Basic analytical geometry]]
-
 [[Complex Numbers]]
-
 [[Series]]
 
+[[Basic analytical geometry]]
 [[Conic Sections]]
+[[Solid Geometry]]
 
 [[Vectors]]
 
-[[Solid Geometry]]
-
+[[Calculus]]
+[[Probability and Stat]]
 # Draft Notes
 
 [[05-01-2026]] ~ tí tìm lại note cũ rồi update vào
-
 [[07-01-2026]]
+[[09-01-2026]]
+[[10-01-2026]]
