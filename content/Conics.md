@@ -2,7 +2,7 @@
 share_link: https://share.note.sx/eaqjx0cu#4ACyqU5xnQytchfaxjM7Wrcmstfc881WyB/FSNHb+UA
 share_updated: 2026-01-07T13:07:01+07:00
 ---
-## Plane Analytic Geometry
+****## Plane Analytic Geometry
 
 > [!Note] Plane Analytic Geometry  
 > **Plane analytic geometry** studies geometric objects in the plane by using

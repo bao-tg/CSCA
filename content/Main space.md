@@ -4,18 +4,18 @@ share_updated: 2026-01-09T17:27:45+07:00
 ---
 # Calendar
 
-+ 5/1/2026: **Functions**
-+ 6/1/2026: **off - reading**
-+ 7/1/2026: **Elementary + Inequalities**
-+ 8/1/2026: **off-reading**
-+ 9/1/2026: **Sets, sequences**
-+ 10/1/2026: **Complex**
-+ 11/1/2026: Basic analytical geometry, conic, vectors, solid geometry
-	+ Sáng: **Conic**
-	+ Chiều: 
-+ 12/1/2026 - 13/1/2026: Mua đề + giải thử
-+ 14/1/2026: 
-+ 15-16/1/2026:
++ 5/1/2026: Functions
++ 6/1/2026: off - reading
++ 7/1/2026: Elementary + Inequalities
++ 8/1/2026: off-reading
++ 9/1/2026: Sets, sequences
++ 10/1/2026: Complex
++ 11/1/2026:
+	+ Sáng: ***Conic/Basic analytic geometry***
+	+ Chiều: Vectors, Space coordinator 
++ 12/1/2026: off-reading (cal-probstat)
++ 13/1/2026: solid
+
 # Lecture Notes
 
 [[Elementary Functions & Inequalities — Structured Notes]]

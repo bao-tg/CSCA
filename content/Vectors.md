@@ -117,6 +117,9 @@ share_updated: 2026-01-09T17:27:32+07:00
 > \text{proj}_{\vec{b}}\vec{a}
 > =\frac{\vec{a}\cdot\vec{b}}{|\vec{b}|^2}\vec{b}
 > $$
+> ![[Pasted image 20260111113857.png]]
+
+
 
 ---
 
