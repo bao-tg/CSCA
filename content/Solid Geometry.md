@@ -2,6 +2,7 @@
 share_link: https://share.note.sx/ytiygg9u#z+c6qw6WYPDGdSl+0gvg40JgP3+FT3mTgyNntnL4ZUM
 share_updated: 2026-01-09T17:27:27+07:00
 ---
+prongs: cạnh
 ## Solid Geometry
 
 > [!Note] Solid Geometry  
@@ -90,6 +91,7 @@ share_updated: 2026-01-09T17:27:27+07:00
 > $$
 > V=\text{Base area}\times \text{height}
 > $$
+![[Pasted image 20260111085350.png]]
 
 ---
 
@@ -102,6 +104,9 @@ share_updated: 2026-01-09T17:27:27+07:00
 > $$
 > V=\frac{1}{3}\times \text{Base area}\times \text{height}
 > $$
+> ![[Pasted image 20260111085422.png]]
+
+
 
 ---
 
@@ -114,6 +119,9 @@ share_updated: 2026-01-09T17:27:27+07:00
 > $$
 > V=\pi r^2h
 > $$
+> ![[Pasted image 20260111085447.png]]
+
+
 
 ---
 
@@ -126,6 +134,9 @@ share_updated: 2026-01-09T17:27:27+07:00
 > $$
 > V=\frac{1}{3}\pi r^2h
 > $$
+> ![[Pasted image 20260111085512.png]]
+
+
 
 ---
 

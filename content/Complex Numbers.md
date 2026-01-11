@@ -20,6 +20,16 @@ Date: 07/01/2026
 > 
 > The set of all complex numbers is denoted by $\mathbb{C}$.
 
+VD: $3 + 5i$
++ phần thực 3
++ phần ảo 5
+VD: $5i$ ~ số phức
++ phần thực 0
++ phần ảo 5
+VD: 5 ~ số thực (vừa là số phức)
++ phần thực 5
++ phần ảo = 0
+
 ---
 
 > [!Note] Equality of Complex Numbers  
@@ -56,13 +66,25 @@ Date: 07/01/2026
 >   \quad z_2\ne0
 >   $$
 
----
+VD: $(a+bi)(c+di)$ = $(ac + bdi^2 + adi +bci)$
+$$= ac - bd + (ad+bc)i$$
+
+VD: $$\frac{a+bi}{c+di} = \frac{(a+bi)(c-di)}{(c+di)(c-di)}$$ $$\frac{a+bi}{c+di} = \frac{(ac + bd + (bc-ad)i)}{c^2+d^2} = \frac{ac+bd}{c^2+d^2} + \frac{bc-ad}{c^2+d^2}i$$
+Fact
+> Số thực chính là số phức, với phần ảo = 0.
+
 
 > [!Note] Complex Conjugate  
 > The **complex conjugate** of $z=a+bi$ is
 > $$
 > \overline{z}=a-bi.
 > $$
+
+Số phức liên hợp
+
+VD: $z = 3 + 5i$ -> $\overline{z} = 3  - 5i$ 
+
+$$z . \overline{z} = a^2 + b^2$$
 
 > [!Note] Properties — Conjugate  
 > - $z\overline{z}=a^2+b^2$  
@@ -76,6 +98,8 @@ Date: 07/01/2026
 > $$
 > |z|=\sqrt{a^2+b^2}.
 > $$
+
+$$z = 3 + 4i$$ -> $|z| =5$
 
 > [!Note] Properties — Modulus  
 > - $|z|\ge0$  
@@ -92,12 +116,23 @@ Date: 07/01/2026
 > $$
 > in the Cartesian plane, called the **complex plane**.
 
+Có nghĩa là, mỗi một số phức -> có thể biểu diễn được bẳng 1 điểm trong hệ tọa độ Oxy
+
+mỗi điểm -> 1 số phức.
+
+VD: $z = 1 + 1i$ -> (1, 1) trên hệ tọa độ.
+
+Nâng cao: **complex plane**
++ trục Ox -> trục số thực
++ trục Oy -> trục số ảo!!!
+
 ---
 
 > [!Note] Argument of a Complex Number  
 > The **argument** of a nonzero complex number $z$ is the angle $\theta$ between the positive real axis and the vector representing $z$.
 > 
 > It is denoted by $\arg z$.
+
 
 ---
 
