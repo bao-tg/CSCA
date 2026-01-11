@@ -38,3 +38,6 @@ share_updated: 2026-01-09T17:27:45+07:00
 [[09-01-2026]]
 [[10-01-2026]]
 [[11-1-2026]]
+
+**Làm nốt bài analytics - đọc qua distance - solid geo - vectors + học thuộc conics!!!!!**
++ Còn thời gian -> attempt thử vài câu!!!!
