@@ -1,7 +1,3 @@
----
-share_link: https://share.note.sx/9o2ff2xn#CAWoVzAbmUU/P0BFrgTy0XxKpQSHRn7HeeUZMvOw17w
-share_updated: 2026-01-09T17:27:45+07:00
----
 # Calendar
 
 + 5/1/2026: Functions
@@ -14,7 +10,9 @@ share_updated: 2026-01-09T17:27:45+07:00
 	+ Sáng: ***Conic/Basic analytic geometry***
 	+ Chiều: Vectors, Space coordinator 
 + 12/1/2026: off-reading (cal-probstat)
-+ 13/1/2026: solid
++ 13/1/2026: **solid geo**, **cal**, **probstat**
++ 14/1/2026:
+	+ ôn bài
 
 # Lecture Notes
 
