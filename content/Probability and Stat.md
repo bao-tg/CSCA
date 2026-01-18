@@ -32,22 +32,33 @@ Roll xúc sắc 6 mặt:
 
 Người ta dùng 1 con số duy nhất để biểu thị characteristics của một Event -> đây là random variable!!!!
 
-**Flip 10 coins, compute the probability that exactly 7 coins that come up a head.**
+
+> Problem: **Flip 10 coins, compute the probability that exactly 7 coins that come up a head.**
 
 Solution:
 According to basic probability
-+ Sample space: $\Omega = \set{\set{H,H,H,....,H},\set{H,H,H,..,T},\dots}$
++ Sample space: $\Omega = \set{\set{H,H,H,....,H},\set{H,H,H,..,T},\dots}$ (**Không cần thiết!**)
 	+ $|\Omega|=$ $2^{10}$
 		+ Step 1: chọn mặt cho đồng 1 -> 2 cahcs
 		+ Step 2: chọn mặt cho đồng 2
 		+ ...
 		+ Step 10: chọn mặt cho đồng 10
 	+ (quy tắc đã học)
-+ Event: $A = \set{\set{H,H,H,..T},\dots}$
-	+ Chọn 3 phần tử bất kì (order matters?) trong 10 phần tử => cho 3 mặt này là head (1, 7 mặt còn lại là tails
++ Event: $A = \set{\set{H,H,H,..T},\dots}$ **(Không cần thiết)**
+	+ Chọn 3 phần tử bất kì (order doesn't matter?) trong **10** phần tử => cho 3 mặt này là head (full tails ~ 1 cách chọn) (1), **7** mặt còn lại là heads (full heads ~ 1 cách chọn) => $C(10, 3).1.1$
+	+ $|A| = C(10, 3)$
++ KQ: $|A|/|\Omega| = C(10, 3)/2^{10}$
 
-> mỗi 1 statement phải chắc!!
 
+> $$P(A)$$ là xác xuất mà event $A$ xảy ra trong toàn bộ sample space
+> 
+> 
+> $$P(X = k)$$
+> $X$ là random variable thể hiện characteristics của event $A$ cho trước
+> 
+> **Ví dụ: $X = k:$ là random variable thể hiện cho việc event $A$ có đúng $k$ mặt heads!!!!**
+
+---
 
 > Việc chọn 7 trong 10 <-> Việc chọn 3 trong 10!!!!
 > 
@@ -75,13 +86,8 @@ According to basic probability
 >   $$
 >   P(X=x)
 >   $$
-> - Continuous: **Probability density function (PDF)**  
->   $$
->   f(x)\ge0,\quad \int_{-\infty}^{\infty}f(x)\,dx=1
->   $$
 
 ---
-
 ## Expected Value
 
 > [!Note] Expected Value (Mean)  
@@ -89,12 +95,39 @@ According to basic probability
 > 
 > - Discrete:
 >   $$
->   \mathbb{E}[X]=\sum xP(X=x)
+>   \mathbb{E}[X]=\sum x.P(X=x)
 >   $$
-> - Continuous:
->   $$
->   \mathbb{E}[X]=\int_{-\infty}^{\infty}x f(x)\,dx
->   $$
+> Tổng tất cả các $x$!!!!
+
+Ví dụ: $X$ là random variable thể hiện giá trị trên mặt của xúc sắc (xúc sắc này có 6 mặt) sau khi tung
+. Tính expected value của $X$.
+
+$X=1:$ random variable thể hiện cho việc mặt xúc sắc có giá trị là 1!!!!!
+$$P(X = 1) = 1/6$$
+$$1.P(X=1) = 1/6$$
+$$P(X=2) = 1/6$$
+$$2.P(X=2)= 2/6 $$
+$$...$$
+$$\mathbb{E}[X]= \sum_{x=1}^{6}xP(X=x) =  \frac{1+2+3+4+5+6}{6}$$
+
+
+Ví dụ: $X$ là số tiền có sau khi chơi trò chơi $A$
+trò chơi $A$:
++ Tốn 10k chơi
+---
++ Xác suất thắng là 1/1000, khi thắng thì nhận được 100k, khi thua thì ko được gì!!!
+---
+Tính Expected value của $X$.
+
+Số tiền nhận được chỉ có thể là:
++ 90k
++ -10k
+
+$$\mathbb{E}[X] = 90.000.P(X = 90.000)+ (-10.000)P(X = -10.000)$$
+$$\mathbb{E}[X] = 90 + (-10.000).999/1000 = 90 - 9990= -9900$$
+
+> Trung bình mỗi lần chơi, chúng ta âm 90 đồng!!!! -> the House always win in long term!!!
+
 
 ---
 
@@ -105,6 +138,8 @@ According to basic probability
 > $$
 > 
 > This holds **without independence**.
+
+Ví dụ: $\mathbb{E}[4X] = 100$. Tính $\mathbb{E}[X]=?$
 
 ---
 
@@ -124,6 +159,21 @@ According to basic probability
 > \mathrm{Var}(X)=\mathbb{E}[X^2]-\big(\mathbb{E}[X]\big)^2
 > $$
 
+Ví dụ: Tính Variance của $X$, với $X$ là random variable thể hiện giá trị trên mặt của xúc sắc (xúc sắc này có 6 mặt) sau khi tung
+
+Nhắc lại: 
+$$\mathbb{E}[X] = \sum xP(X= x)$$
+
+Thì
+
+$$\mathbb{E}[X^2] = \sum x^2 P(X = x)$$
+Chú ý:
+
+$$\mathbb{E}[g(X)] = \sum g(x)P(X=x)$$
+---
+
+$$Var(X)= \frac{1+2^2+3^2+16+25+36}{6} -  (\frac{1+2+3+4+5+6}{6})^2 = 35/12$$
+
 ---
 
 > [!Note] Standard Deviation  
@@ -132,18 +182,24 @@ According to basic probability
 > \sigma=\sqrt{\mathrm{Var}(X)}
 > $$
 
++ Căn của variance!!!!
+
 ---
 
 > [!Note] Variance — Linearity Properties  
 > - $\mathrm{Var}(aX)=a^2\mathrm{Var}(X)$  
 > - $\mathrm{Var}(aX+b)=a^2\mathrm{Var}(X)$  
+> 	- chứng minh lại bằng định nghĩa
 > - If $X,Y$ are independent:
 >   $$
 >   \mathrm{Var}(X+Y)=\mathrm{Var}(X)+\mathrm{Var}(Y)
 >   $$
 
----
+Chú ý:
 
+$$Var[aX + bY] = Var[aX] + Var[Y] = a^2Var[X] + b^2Var[Y]$$
+
+---
 ## Normal Distribution
 
 > [!Note] Normal Distribution  
@@ -157,6 +213,21 @@ According to basic probability
 > $$
 > X\sim\mathcal{N}(\mu,\sigma^2)
 > $$
+
+Random variable: là một số
+Probability **distribution function**: map cái **random variable** này sang 1 cái **probability!!!**!
+
+Normal distribution là một probability distribution function "**đặc biệt**"
+
+Normal distribution có 2 giá trị đặc biệt:
++ mean
++ variance ~ (standard deviation)^2
+
+Ký hiệu $$X\sim\mathcal{N}(\mu,\sigma^2) $$ nghĩa là, random variable $X$ follows normal distribution có mean = $\mu$ và $variance = \sigma^2$
+
+![[Pasted image 20260118162439.png]]
+
+Bell curve -> đối xứng!!!
 
 ---
 
