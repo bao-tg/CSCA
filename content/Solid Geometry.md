@@ -107,6 +107,8 @@ prongs: cạnh
 > ![[Pasted image 20260111085422.png]]
 
 
+số triang
+
 
 ---
 
@@ -180,5 +182,123 @@ prongs: cạnh
 > 3. Compute the volume of a pyramid with base area $12$ and height $5$.  
 > 4. Find the surface area of a sphere of radius $7$.  
 > 5. Determine whether two planes with normals $(1,2,3)$ and $(2,4,6)$ are parallel.
+
+---
+## Frustum (Truncated Solid)
+
+> [!Note] Frustum  
+> A **frustum** is a solid formed when the **top part of a cone or pyramid is cut off**
+> by a plane **parallel to the base**.
+> 
+> Common frustums:
+> - **Frustum of a cone**
+> - **Frustum of a pyramid**
+
+---
+
+## Frustum of a Cone
+
+> [!Note] Definition — Conical Frustum  
+> A **conical frustum** has:
+> - Two parallel circular bases  
+> - Different radii  
+> - A curved lateral surface
+
+Let:
+- Larger radius: $R$  
+- Smaller radius: $r$  
+- Height: $h$  
+- Slant height: $l$
+
+---
+
+> [!Note] Volume — Conical Frustum  
+> $$
+> V=\frac{1}{3}\pi h\left(R^2+r^2+Rr\right)
+> $$
+
+---
+
+> [!Note] Slant Height  
+> $$
+> l=\sqrt{h^2+(R-r)^2}
+> $$
+
+---
+
+> [!Note] Lateral Surface Area  
+> $$
+> S_{\text{lateral}}=\pi(R+r)l
+> $$
+
+---
+
+> [!Note] Total Surface Area  
+> $$
+> S_{\text{total}}=\pi(R+r)l+\pi R^2+\pi r^2
+> $$
+
+---
+
+> [!Note] Insight — Similarity  
+> A frustum comes from **similar cones**, which explains why $R^2+r^2+Rr$
+> appears in the volume formula.
+
+---
+
+## Frustum of a Pyramid
+
+> [!Note] Definition — Pyramidal Frustum  
+> A **pyramidal frustum** is formed by cutting a pyramid with a plane
+> parallel to its base.
+
+Let:
+- Area of larger base: $B_1$  
+- Area of smaller base: $B_2$  
+- Height: $h$
+
+---
+
+> [!Note] Volume — Pyramidal Frustum  
+> $$
+> V=\frac{h}{3}\left(B_1+B_2+\sqrt{B_1B_2}\right)
+> $$
+
+---
+
+> [!Note] Special Case — Square Frustum  
+> If bases are squares with side lengths $a$ and $b$:
+> $$
+> V=\frac{h}{3}\left(a^2+b^2+ab\right)
+> $$
+
+---
+
+## Comparison
+
+> [!Note] Frustum vs Original Solid  
+
+| Solid | Bases | Lateral Faces |
+|------|------|---------------|
+| Cone | 1 circular | Curved |
+| Cone Frustum | 2 circular | Curved |
+| Pyramid | 1 polygon | Flat |
+| Pyramid Frustum | 2 polygons | Flat |
+
+---
+
+> [!Note] Problem-Solving Insights — Frustum  
+> - Always check the **bases are parallel**.  
+> - Use similarity to derive missing dimensions.  
+> - Slant height is **not** the same as vertical height.  
+> - Draw the full cone/pyramid if needed.
+
+---
+
+> [!Note] Additional Problems — Frustum  
+> 1. A conical frustum has $R=5$, $r=3$, $h=4$. Find its volume.  
+> 2. Find the lateral surface area of a frustum with $R=6$, $r=2$, $h=8$.  
+> 3. A pyramid frustum has square bases of side $10$ and $4$, height $6$. Find its volume.  
+> 4. Show how the frustum volume formula follows from subtracting two similar cones.
 
 ---

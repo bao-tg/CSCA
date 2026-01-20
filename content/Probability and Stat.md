@@ -95,12 +95,20 @@ According to basic probability
 > 
 > - Discrete:
 >   $$
->   \mathbb{E}[X]=\sum x.P(X=x)
+>   \mathbb{E}[X]=\sum_x x.P(X=x)
 >   $$
-> Tổng tất cả các $x$!!!!
+> 
+> + $x$: Giá trị cụ thể của random variable $X$
+> 
 
-Ví dụ: $X$ là random variable thể hiện giá trị trên mặt của xúc sắc (xúc sắc này có 6 mặt) sau khi tung
-. Tính expected value của $X$.
+> KHÔNG CÓ KHÁI NIỆM "EXPECTED VALUE"!!!!
+> CHỈ CÓ KHÁI NIỆM: EXPECTED VALUE CỦA RANDOM VARIABLE!!!
+
+> $a_1.b_1 + a_2.b_2 + \dots a_n.b_n$: tổng các tích!!!!!
+> $(a_1 + a_2+\dots a_n)(b_1 + b_2 \dots + b_n)$: tích hai tổng!!!
+
+
+Ví dụ: $X$ là random variable thể hiện giá trị trên mặt của xúc sắc (xúc sắc này có 6 mặt) sau khi tung. Tính expected value của $X$.
 
 $X=1:$ random variable thể hiện cho việc mặt xúc sắc có giá trị là 1!!!!!
 $$P(X = 1) = 1/6$$
@@ -110,6 +118,7 @@ $$2.P(X=2)= 2/6 $$
 $$...$$
 $$\mathbb{E}[X]= \sum_{x=1}^{6}xP(X=x) =  \frac{1+2+3+4+5+6}{6}$$
 
+---
 
 Ví dụ: $X$ là số tiền có sau khi chơi trò chơi $A$
 trò chơi $A$:
@@ -138,6 +147,9 @@ $$\mathbb{E}[X] = 90 + (-10.000).999/1000 = 90 - 9990= -9900$$
 > $$
 > 
 > This holds **without independence**.
+
+Note that:
+$$\mathbb{E}[aX+b] = a\mathbb{E}[X] + b$$
 
 Ví dụ: $\mathbb{E}[4X] = 100$. Tính $\mathbb{E}[X]=?$
 
@@ -202,6 +214,13 @@ $$Var[aX + bY] = Var[aX] + Var[Y] = a^2Var[X] + b^2Var[Y]$$
 ---
 ## Normal Distribution
 
+Distribution: là một function, chuyển từ một random variable sang probability của nó!!!!!
+
+random variable -> probablity của random variable đấy!!!!
+
+Một vài distribution cơ bản:
++ Uniform distribution: $f(x) = \frac{1}{b-a} = const$, $X \sim U(a, b)$
+
 > [!Note] Normal Distribution  
 > A random variable $X$ follows a **normal distribution** if its PDF is:
 > $$
@@ -228,6 +247,10 @@ Ký hiệu $$X\sim\mathcal{N}(\mu,\sigma^2) $$ nghĩa là, random variable $X$ f
 ![[Pasted image 20260118162439.png]]
 
 Bell curve -> đối xứng!!!
+$$P(-2 \leq X \leq 2)$$
+phần diện tích nằm trong khoảng $[-2, 2]$ của hàm probability distribution của random variable!!!
+
+
 
 ---
 
@@ -238,6 +261,7 @@ Bell curve -> đối xứng!!!
 >   $$
 >   P(X\le\mu-a)=P(X\ge\mu+a)
 >   $$
+> 	-  + Phần diện tích của hình nằm bên trái = diện tích của hình nằm bên phải
 
 ---
 
@@ -256,6 +280,9 @@ Bell curve -> đối xứng!!!
 > $$
 > Z\sim\mathcal{N}(0,1)
 > $$
+
+Nói chung:
++ Mọi normal distribution đều có thể chuyển về standard normal distribution
 
 ---
 

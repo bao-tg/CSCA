@@ -66,6 +66,18 @@
 > f'(a)=\lim_{h\to0}\frac{f(a+h)-f(a)}{h}
 > $$
 
+> Nhớ
+
+$f(x) = x^2$
+
+Derivative của f(x) tại x = a 
+
+$$f'(a)  = \lim_{h \to 0} \frac{f(a+h)-f(a)}{h} = \lim_{h \to 0} \frac{(a+h)^2-a^2}{h} = $$
+
+$$\lim_{h \to 0} \frac{(a+h)^2-a^2}{h} = \lim_{h \to 0} \frac{h^2 + 2ah}{h} = \lim_{h \to 0 }(h + 2a) = 2a$$
+
+Đây là lý do $f'(x) = 2x$
+
 > [!Note] Meaning of the Derivative  
 > - Slope of the tangent line  
 > - Instantaneous rate of change  
@@ -111,6 +123,14 @@
 > $$
 > y-f(a)=f'(a)(x-a)
 > $$
+
+> Cho trước một đường cong y = f(x), và một điểm (a, f(a)), ta tìm tiếp tuyến đi qua điểm đó của đường cong!!!
+
+VD: Tìm tangent line của $y = x^2$ tại $x = 1$.
+$$y - f(1) = f'(1)(x-1)$$
+$$y-1 = 2(x-1)$$
+$$y = 2x -1$$
+
 
 ---
 
