@@ -25,7 +25,7 @@
 [[Complex Numbers]]
 [[Series]]
 
-[[Distance]]
+[[Distance]]	
 [[Tangents between circles]]
 [[Vectors]]
 [[Conics]]
@@ -59,3 +59,8 @@
 > Có khó khăn, thắc mắc thì ping anh -> anh sẽ cố giải thích!!.
 > Nếu cần thiết -> thì học thêm 1-2 buổi.
 
+# Additional docs
+
+[[Logarithm comparison]]
+[[Domain and range of trigonometric functions]]
+[[Tangents]]
